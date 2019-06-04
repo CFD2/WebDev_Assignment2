@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body {
+    font-family: "Open Sans", Verdana, Arial, sans-serif;
+    font-size: 100%;
+    background-color: #E8EAF6;
+}
+
+header, footer {
+    color: white;
+    background-color: #1A237E;
+    margin: 0;
+}
+header h1 {
+    font-family: Lobster, Cambria, "Times New Roman", serif;
+    padding: 0.5rem 0 0 1.25rem;
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline;
+}
+
+#menuBtn {
+    float: right;
+    display: inline;
+    margin: 8px 8px 8px 8px;
+
+}
+
+main {
+    margin: 30px;
+}
+
+figure {
+    background-color: azure;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px 50px 10px 15px;
+    border: solid 1px darkgray;
+}
+
+#previewWrapper {
+    display: block;
+    margin: 0 0 0 15px;
+}
+
+.preview {
+    padding: 2px;
+    background-color: azure;
+    display: inline-block;
+    border: solid 1px darkgray;
+    margin-bottom: 5px;
+}
+
+.previewImg {
+    width: 121px;
+    height: auto;
+}
+
+figure {
+    position: relative;
+}
+
+#caption {
+    position: absolute;
+    top: 442px;
+    width: 98.5%;
+    font-size: 2rem;
+    background-color: rgba(177, 171, 134, 0.8);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    display: none;
+}
